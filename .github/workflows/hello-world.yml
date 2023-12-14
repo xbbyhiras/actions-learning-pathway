@@ -8,4 +8,4 @@ jobs:
       - name: Check out
         uses: actions/checkout@v3
       - name: read txt file
-        run: echo "${cat hello_world.txt}"
+        run: echo "$(cat hello_world.txt)"
